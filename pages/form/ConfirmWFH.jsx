@@ -59,7 +59,7 @@ export default function ConfirmWFH() {
     <Layout isText={true} Progress={Q4Progress}>
       <Box pos="absolute" top={["2", "5"]} left={["2", "10"]}>
         <BackButton
-          href="/"
+          href="/form/TravelMethod"
           onClick={() => {
             saveDataAndShowLog("Back button clicked");
           }}
